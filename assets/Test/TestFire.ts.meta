@@ -1,8 +1,8 @@
 {
   "ver": "4.0.9",
-  "importer": "javascript",
+  "importer": "typescript",
   "imported": true,
-  "uuid": "781e73a8-c976-458b-bf50-51b8008b675b",
+  "uuid": "322a8911-9577-48c9-8bb3-edc691abe4b0",
   "files": [
     ".js",
     "editor.js",
@@ -11,7 +11,7 @@
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/Test/FxPlayTest.js",
+    "moduleId": "project:///assets/Test/TestFire.js",
     "importerSettings": 7
   }
 }

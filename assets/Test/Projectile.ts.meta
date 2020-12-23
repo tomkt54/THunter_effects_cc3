@@ -1,8 +1,8 @@
 {
   "ver": "4.0.9",
-  "importer": "javascript",
+  "importer": "typescript",
   "imported": true,
-  "uuid": "1e0c5157-024b-46ff-be47-a78b6dd49237",
+  "uuid": "e36e9b9d-a37d-4ba2-815d-74425bd8ec6f",
   "files": [
     ".js",
     "editor.js",
@@ -11,7 +11,7 @@
   "subMetas": {},
   "userData": {
     "importAsPlugin": false,
-    "moduleId": "project:///assets/Test/Bullet.js",
+    "moduleId": "project:///assets/Test/Projectile.js",
     "importerSettings": 7
   }
 }
