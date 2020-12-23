@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "77742687-f74c-42b2-8daf-86c46c32125d",
+  "files": [],
+  "subMetas": {
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "77742687-f74c-42b2-8daf-86c46c32125d@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4e6b": {
+      "importer": "gltf-material",
+      "uuid": "77742687-f74c-42b2-8daf-86c46c32125d@b4e6b",
+      "displayName": "",
+      "id": "b4e6b",
+      "name": "Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d2e3": {
+      "importer": "gltf-scene",
+      "uuid": "77742687-f74c-42b2-8daf-86c46c32125d@7d2e3",
+      "displayName": "",
+      "id": "7d2e3",
+      "name": "bullet.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "77742687-f74c-42b2-8daf-86c46c32125d@7d2e3",
+    "assetFinder": {
+      "meshes": [
+        "77742687-f74c-42b2-8daf-86c46c32125d@2f6d1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "77742687-f74c-42b2-8daf-86c46c32125d@b4e6b"
+      ],
+      "scenes": [
+        "77742687-f74c-42b2-8daf-86c46c32125d@7d2e3"
+      ]
+    }
+  }
+}

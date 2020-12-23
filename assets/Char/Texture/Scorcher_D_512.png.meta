@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b806e8ce-cbf2-44a3-8fa3-4e15b0d0348d",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "Scorcher_D_512": {
+      "ver": "1.0.4",
+      "uuid": "8a529239-a904-45c0-8fe5-666ed9d7e662",
+      "rawTextureUuid": "b806e8ce-cbf2-44a3-8fa3-4e15b0d0348d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1024,
+      "height": 1024,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b806e8ce-cbf2-44a3-8fa3-4e15b0d0348d@6c48a",
+      "displayName": "Scorcher_D_512",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b806e8ce-cbf2-44a3-8fa3-4e15b0d0348d"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "redirect": "b806e8ce-cbf2-44a3-8fa3-4e15b0d0348d@6c48a"
+  }
+}

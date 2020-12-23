@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "78a28a58-ebab-47ba-8983-37a618fb5f75",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "Rock02": {
+      "ver": "1.0.4",
+      "uuid": "73af40df-71e2-4d1b-b01e-22a5fdea5562",
+      "rawTextureUuid": "78a28a58-ebab-47ba-8983-37a618fb5f75",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1024,
+      "height": 1024,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "78a28a58-ebab-47ba-8983-37a618fb5f75@6c48a",
+      "displayName": "Rock02",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "78a28a58-ebab-47ba-8983-37a618fb5f75"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "redirect": "78a28a58-ebab-47ba-8983-37a618fb5f75@6c48a"
+  }
+}

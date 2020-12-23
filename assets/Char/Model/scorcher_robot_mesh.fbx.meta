@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7543": {
+      "importer": "gltf-scene",
+      "uuid": "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@c7543",
+      "displayName": "",
+      "id": "c7543",
+      "name": "scorcher_robot_mesh.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@c7543",
+    "assetFinder": {
+      "meshes": [
+        "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@2deab"
+      ],
+      "scenes": [
+        "9ebbbcbb-d09d-4ef0-b8d2-4dda36485e10@c7543"
+      ]
+    }
+  }
+}

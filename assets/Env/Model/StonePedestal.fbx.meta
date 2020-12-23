@@ -1,0 +1,123 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0",
+  "files": [],
+  "subMetas": {
+    "6fb74": {
+      "importer": "gltf-mesh",
+      "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@6fb74",
+      "displayName": "",
+      "id": "6fb74",
+      "name": "StonePedestal_geo.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "86eb5": {
+      "importer": "gltf-embeded-image",
+      "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@86eb5",
+      "displayName": "",
+      "id": "86eb5",
+      "name": "Rock5.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "27fcd": {
+      "importer": "texture",
+      "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@27fcd",
+      "displayName": "",
+      "id": "27fcd",
+      "name": "Rock5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@86eb5"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74ae4": {
+      "importer": "gltf-material",
+      "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@74ae4",
+      "displayName": "",
+      "id": "74ae4",
+      "name": "Rock05_mtl.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0aa2": {
+      "importer": "gltf-scene",
+      "uuid": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@a0aa2",
+      "displayName": "",
+      "id": "a0aa2",
+      "name": "StonePedestal.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Rock5",
+        "uri": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@86eb5"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@a0aa2",
+    "assetFinder": {
+      "meshes": [
+        "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@6fb74"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@27fcd"
+      ],
+      "materials": [
+        "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@74ae4"
+      ],
+      "scenes": [
+        "9ad503a2-9350-40cf-ad05-5ad946e0c5e0@a0aa2"
+      ]
+    }
+  }
+}

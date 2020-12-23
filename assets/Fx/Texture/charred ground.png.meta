@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "f0c85f45-4ffe-4324-bf3f-be91b2051d4f",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "charred ground": {
+      "ver": "1.0.4",
+      "uuid": "fdefe421-173d-4d7d-8885-e3ae39bdf73f",
+      "rawTextureUuid": "f0c85f45-4ffe-4324-bf3f-be91b2051d4f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 1,
+      "trimX": 10,
+      "trimY": 4,
+      "width": 237,
+      "height": 246,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "f0c85f45-4ffe-4324-bf3f-be91b2051d4f@6c48a",
+      "displayName": "charred ground",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f0c85f45-4ffe-4324-bf3f-be91b2051d4f"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "f0c85f45-4ffe-4324-bf3f-be91b2051d4f@6c48a"
+  }
+}

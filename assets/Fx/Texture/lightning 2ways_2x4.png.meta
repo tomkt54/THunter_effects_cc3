@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "7c086bf3-2ac8-48ad-9040-8ea7dbe9c944",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "lightning 2ways_2x4": {
+      "ver": "1.0.4",
+      "uuid": "2d573520-9f06-4a37-9671-de3d8ff42519",
+      "rawTextureUuid": "7c086bf3-2ac8-48ad-9040-8ea7dbe9c944",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 512,
+      "height": 512,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "7c086bf3-2ac8-48ad-9040-8ea7dbe9c944@6c48a",
+      "displayName": "lightning 2ways_2x4",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7c086bf3-2ac8-48ad-9040-8ea7dbe9c944"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "7c086bf3-2ac8-48ad-9040-8ea7dbe9c944@6c48a"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e0f3819a-b83f-445e-aede-7f25eb3ddc1e",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "fire explosion_5x5": {
+      "ver": "1.0.4",
+      "uuid": "f7a7856a-926b-46d6-bdcf-a83a320c36f5",
+      "rawTextureUuid": "e0f3819a-b83f-445e-aede-7f25eb3ddc1e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4,
+      "offsetY": -3.5,
+      "trimX": 9,
+      "trimY": 18,
+      "width": 1014,
+      "height": 995,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e0f3819a-b83f-445e-aede-7f25eb3ddc1e@6c48a",
+      "displayName": "fire explosion_5x5",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e0f3819a-b83f-445e-aede-7f25eb3ddc1e"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "e0f3819a-b83f-445e-aede-7f25eb3ddc1e@6c48a"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "cb35aa21-69f3-467f-872c-093d15bfd25d",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "laser loop": {
+      "ver": "1.0.4",
+      "uuid": "00828994-a0f8-41f0-8b4a-5b8afa3ed93e",
+      "rawTextureUuid": "cb35aa21-69f3-467f-872c-093d15bfd25d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 13,
+      "width": 128,
+      "height": 102,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "cb35aa21-69f3-467f-872c-093d15bfd25d@6c48a",
+      "displayName": "laser loop",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cb35aa21-69f3-467f-872c-093d15bfd25d"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "cb35aa21-69f3-467f-872c-093d15bfd25d@6c48a"
+  }
+}

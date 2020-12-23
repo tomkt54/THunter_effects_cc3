@@ -1,0 +1,17 @@
+{
+  "ver": "4.0.9",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "2df4a2a3-7390-4347-8b73-e072738ee21f",
+  "files": [
+    ".js",
+    "editor.js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Test/Main.js",
+    "importerSettings": 7
+  }
+}

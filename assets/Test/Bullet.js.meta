@@ -1,0 +1,17 @@
+{
+  "ver": "4.0.9",
+  "importer": "javascript",
+  "imported": true,
+  "uuid": "1e0c5157-024b-46ff-be47-a78b6dd49237",
+  "files": [
+    ".js",
+    "editor.js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Test/Bullet.js",
+    "importerSettings": 7
+  }
+}

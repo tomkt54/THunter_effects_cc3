@@ -1,0 +1,61 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "2f78a4dc-53ea-4798-88f6-2dac07121be5",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "armor parts_2x2": {
+      "ver": "1.0.4",
+      "uuid": "233426ed-df9e-4c31-8e8c-17acf5cff519",
+      "rawTextureUuid": "2f78a4dc-53ea-4798-88f6-2dac07121be5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 2,
+      "trimX": 7,
+      "trimY": 5,
+      "width": 239,
+      "height": 242,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "2f78a4dc-53ea-4798-88f6-2dac07121be5@6c48a",
+      "displayName": "armor parts_2x2",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2f78a4dc-53ea-4798-88f6-2dac07121be5"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "2f78a4dc-53ea-4798-88f6-2dac07121be5@6c48a"
+  }
+}
