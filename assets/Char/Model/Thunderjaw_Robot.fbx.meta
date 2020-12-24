@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4d7b733e-21df-42da-9aa9-42b5850b15ec",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "4d7b733e-21df-42da-9aa9-42b5850b15ec@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "4d7b733e-21df-42da-9aa9-42b5850b15ec@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a5dd": {
+      "importer": "gltf-scene",
+      "uuid": "4d7b733e-21df-42da-9aa9-42b5850b15ec@4a5dd",
+      "displayName": "",
+      "id": "4a5dd",
+      "name": "Thunderjaw_Robot.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "4d7b733e-21df-42da-9aa9-42b5850b15ec@4a5dd",
+    "assetFinder": {
+      "meshes": [
+        "4d7b733e-21df-42da-9aa9-42b5850b15ec@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4d7b733e-21df-42da-9aa9-42b5850b15ec@2deab"
+      ],
+      "scenes": [
+        "4d7b733e-21df-42da-9aa9-42b5850b15ec@4a5dd"
+      ]
+    }
+  }
+}

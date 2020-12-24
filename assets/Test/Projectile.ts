@@ -28,13 +28,13 @@ export class Projectile extends Component {
     flying = false;
 
     Fire () {
+        //cc.log('target is '+this.targetPos);
         // Your initialization goes here.
         this.lastPos = this.node.position;
 
         this.node['vx'] = this.node.position.x;
         this.node['vy'] = this.node.position.y;
         this.node['vz'] = this.node.position.z;
-        let durhalf = this.duration / 2;
 
         //up 
         //let up = cc.math.randomRange(10, 20);
@@ -88,10 +88,17 @@ export class Projectile extends Component {
         this.node.position = new cc.Vec3(this.node['vx'], this.node['vy'], this.node['vz']);
         if (this.lastPos) {
             //get dir = curPos - lastPos >> dir x-1 >> lookDir = curPos + dir >> node lookAt using lookDir
-            let v = cc.Vec3.subtract(new cc.Vec3(), this.node.position, this.lastPos);
-            v.multiply(new cc.Vec3(-1, -1, -1));
-            let p = cc.Vec3.add(new cc.Vec3(), this.node.position, v);
-            this.node.lookAt(p);
+            //let v = cc.Vec3.subtract(new cc.Vec3(), this.node.position, this.lastPos);
+            //v.multiply(new cc.Vec3(-1, -1, -1));
+            //let p = cc.Vec3.add(new cc.Vec3(), this.node.position, v);
+            //this.node.lookAt(p);
+
+            //get dir = curPos - lastPos >> x-1 >> new quat from view up using dir >> set rotation.
+            let curPos = this.node.position.clone();
+            let dir = curPos.subtract(this.lastPos).normalize();
+            let quat = new cc.Quat();
+            cc.Quat.fromViewUp(quat,dir, new cc.Vec3(-1, 0, 0));
+            this.node.setRotation(quat);
 
         }
         this.lastPos = this.node.position.clone();

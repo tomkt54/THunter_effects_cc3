@@ -29,16 +29,34 @@ export class TestFire extends Component {
     @property(Vec2)
     randomFirePointH = new Vec2(0,0);
 
+    @property
+    delay = 0;
+
     //fire from fire point + random horizontal, to target point
     Fire() {
-        log('fire');
+        if(this.delay>0){
+            cc.tween(this.node)
+            .delay(this.delay)
+            .call(()=>{
+                log('fire delay '+this.delay);
+                this.fire();
+            })
+            .start();
+        }else{
+            log('fire');
+            this.fire();
+        }
+    }
+
+    fire(){
+        //log('fire from '+this.firePoint.position + ' to '+this.targetPoint.position);
         //instantiate
         let node = cc.instantiate(this.projectile);
 
         //set position
         node.parent = this.projectile.parent;
 
-        let randomPos = new cc.Vec3(cc.math.randomRange(this.randomFirePointH.x, this.randomFirePointH.y),
+        let randomPos = new cc.Vec3(this.firePoint.position.x+ cc.math.randomRange(this.randomFirePointH.x, this.randomFirePointH.y),
             this.firePoint.position.y,
             this.firePoint.position.z);
 
@@ -48,7 +66,7 @@ export class TestFire extends Component {
         //tween to target
         let proj = node.getComponent(Projectile);
         proj.targetPos = this.targetPoint.position;
-        proj.Fire();
+        proj.Fire();    
     }
 
     // update (deltaTime: number) {

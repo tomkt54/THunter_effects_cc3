@@ -1,0 +1,106 @@
+{
+  "ver": "2.0.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "304bf66c-ecfb-4d03-8829-e3681d20ec01",
+  "files": [],
+  "subMetas": {
+    "21629": {
+      "importer": "gltf-material",
+      "uuid": "304bf66c-ecfb-4d03-8829-e3681d20ec01@21629",
+      "displayName": "",
+      "id": "21629",
+      "name": "ThunderJaw:ThunderJawPatriot_M.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef041": {
+      "importer": "gltf-mesh",
+      "uuid": "304bf66c-ecfb-4d03-8829-e3681d20ec01@ef041",
+      "displayName": "",
+      "id": "ef041",
+      "name": "ThunderJaw:ThunderJawPatriot_geo.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "13e00": {
+      "importer": "texture",
+      "uuid": "304bf66c-ecfb-4d03-8829-e3681d20ec01@13e00",
+      "displayName": "",
+      "id": "13e00",
+      "name": "ThunderJaw:file1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Char/Model/ThunderJawPatriot_D_512.png"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bebe2": {
+      "importer": "gltf-scene",
+      "uuid": "304bf66c-ecfb-4d03-8829-e3681d20ec01@bebe2",
+      "displayName": "",
+      "id": "bebe2",
+      "name": "ThunderJaw_Robot_Patriot.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "ThunderJaw:file1",
+        "uri": "db://assets/Char/Model/ThunderJawPatriot_D_512.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "304bf66c-ecfb-4d03-8829-e3681d20ec01@bebe2",
+    "assetFinder": {
+      "meshes": [
+        "304bf66c-ecfb-4d03-8829-e3681d20ec01@ef041"
+      ],
+      "skeletons": [],
+      "textures": [
+        "304bf66c-ecfb-4d03-8829-e3681d20ec01@13e00"
+      ],
+      "materials": [
+        "304bf66c-ecfb-4d03-8829-e3681d20ec01@21629"
+      ],
+      "scenes": [
+        "304bf66c-ecfb-4d03-8829-e3681d20ec01@bebe2"
+      ]
+    }
+  }
+}
