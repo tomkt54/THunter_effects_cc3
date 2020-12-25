@@ -22,6 +22,9 @@ export class Projectile extends Component {
     @property(cc.Node)
     hitFx: cc.Node = null;
 
+    @property
+    arch = true;
+
     lastPos = new cc.Vec3();
     targetPos = new cc.Vec3();
 
@@ -41,7 +44,8 @@ export class Projectile extends Component {
         //cc.tween(this.node).to(durhalf, { vy: up }, { easing: 'sineOut' }).start();
         //down
         //cc.tween(this.node).delay(durhalf).to(durhalf, { vy: this.targetPos.y }, { easing: 'sineIn' }).start();
-        cc.tween(this.node).to(this.duration, { vy: this.targetPos.y }, { easing: 'sineIn' }).start();
+        if(this.arch)cc.tween(this.node).to(this.duration, { vy: this.targetPos.y }, { easing: 'sineIn' }).start();
+        else cc.tween(this.node).to(this.duration, { vy: this.targetPos.y }).start();
 
         //forward
         cc.tween(this.node).to(this.duration, { vz: this.targetPos.z }).start();

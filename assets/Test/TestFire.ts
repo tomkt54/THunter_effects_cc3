@@ -5,7 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, Node, log, Vec2 } from 'cc';
+import { _decorator, Component, Node, log, Vec2, Vec3 } from 'cc';
 import { Projectile } from './Projectile';
 const { ccclass, property } = _decorator;
 
@@ -28,6 +28,7 @@ export class TestFire extends Component {
 
     @property(Vec2)
     randomFirePointH = new Vec2(0,0);
+
 
     @property
     delay = 0;
@@ -65,7 +66,7 @@ export class TestFire extends Component {
 
         //tween to target
         let proj = node.getComponent(Projectile);
-        proj.targetPos = this.targetPoint.position;
+        proj.targetPos =this.targetPoint.position;
         proj.Fire();    
     }
 
